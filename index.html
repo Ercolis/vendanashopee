@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vendas que convertem: Como começar na Shopee do zero</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    /* Animação da notificação */
+    #purchase-notification {
+      transition: transform 0.5s ease, opacity 0.5s ease;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <header class="text-center p-6 md:p-10">
+    <h1 class="text-3xl md:text-4xl font-bold mb-4">Vendas que convertem: Como começar na Shopee do zero</h1>
+    <p class="text-lg md:text-xl mb-6">Descubra como começar a lucrar vendendo produtos sem sair de casa!</p>
+    <a href="#comprar" class="bg-yellow-400 text-black font-bold py-3 px-6 rounded-full shadow-lg hover:bg-yellow-300 transition text-base md:text-lg">Compre Agora</a>
+  </header>
+
+  <section class="p-6 md:p-8 bg-gray-800">
+    <h2 class="text-xl md:text-2xl font-bold text-center mb-4">Sobre o eBook</h2>
+    <div class="flex flex-col md:flex-row items-center gap-6 max-w-5xl mx-auto">
+      <img src="https://shopee.com.br/blog/wp-content/uploads/2022/04/1-milhao-de-vendedores-locais.jpg" class="w-full md:w-1/2 rounded-lg shadow-lg" alt="Venda online" />
+      <p class="text-base md:text-lg">Este eBook prático ensina você a criar sua loja na Shopee do zero, encontrar produtos campeões e vender todos os dias. Ideal para quem busca independência financeira e quer começar com pouco investimento. Mais de 10 mil leitores já estão ganhando com vendas online!</p>
+    </div>
+  </section>
+
+  <section class="p-6 md:p-8 bg-gray-900">
+    <h2 class="text-xl md:text-2xl font-bold text-center mb-4">O que você vai aprender:</h2>
+    <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto items-center">
+      <ul class="list-disc list-inside text-base md:text-lg">
+        <li>Como criar e configurar sua loja na Shopee</li>
+        <li>Onde encontrar os produtos certos para vender</li>
+        <li>Estratégias para vender todos os dias</li>
+        <li>Como divulgar e crescer suas vendas</li>
+        <li>Bônus: Lista de fornecedores confiáveis</li>
+        <li>Bônus: Produtos vencedores para começar a vender ainda hoje</li>
+      </ul>
+      <img src="https://s2-epocanegocios.glbimg.com/AFQal8kzszMQ6m-ctfaSJ9loxnM=/0x0:1024x683/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e536e40f1baf4c1a8bf1ed12d20577fd/internal_photos/bs/2022/y/A/5VNmP1T4auxviV6JMLKw/gettyimages-1239429129.jpg" class="rounded-lg shadow-lg" alt="Tecnologia e vendas" />
+    </div>
+  </section>
+
+  <section class="p-6 md:p-8 bg-gray-900 text-white">
+    <h2 class="text-xl md:text-2xl font-bold text-center mb-4">Depoimentos</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div class="bg-gray-800 p-4 rounded-xl shadow-md text-center">
+        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Camila R." class="mx-auto rounded-full w-20 h-20 mb-3" />
+        <p class="text-sm">"Comecei do zero e em 2 semanas já fiz minhas primeiras vendas!"</p>
+        <span class="block mt-2 font-bold">– Camila R.</span>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow-md text-center">
+        <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="João M." class="mx-auto rounded-full w-20 h-20 mb-3" />
+        <p class="text-sm">"O eBook é direto ao ponto, fácil de seguir e funciona de verdade."</p>
+        <span class="block mt-2 font-bold">– João M.</span>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow-md text-center">
+        <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Larissa S." class="mx-auto rounded-full w-20 h-20 mb-3" />
+        <p class="text-sm">"Já estou fazendo mais de R$ 2.000 por mês com o que aprendi!"</p>
+        <span class="block mt-2 font-bold">– Larissa S.</span>
+      </div>
+      <!-- Novos depoimentos -->
+      <div class="bg-gray-800 p-4 rounded-xl shadow-md text-center">
+        <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="Mateus C." class="mx-auto rounded-full w-20 h-20 mb-3" />
+        <p class="text-sm">"As dicas são claras e pude aplicar rápido no meu negócio."</p>
+        <span class="block mt-2 font-bold">– Mateus C.</span>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow-md text-center">
+        <img src="https://randomuser.me/api/portraits/women/5.jpg" alt="Juliana M." class="mx-auto rounded-full w-20 h-20 mb-3" />
+        <p class="text-sm">"Recomendo para quem quer começar a vender na Shopee sem medo."</p>
+        <span class="block mt-2 font-bold">– Juliana M.</span>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow-md text-center">
+        <img src="https://randomuser.me/api/portraits/men/6.jpg" alt="Rafael S." class="mx-auto rounded-full w-20 h-20 mb-3" />
+        <p class="text-sm">"Comecei a ganhar dinheiro rápido e com pouco investimento."</p>
+        <span class="block mt-2 font-bold">– Rafael S.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-6 md:p-8 bg-yellow-500 text-black text-center animate-pulse">
+    <h2 class="text-xl md:text-2xl font-bold mb-2">🔥 Oferta relâmpago!</h2>
+    <p class="text-base md:text-lg">Garanta seu acesso agora mesmo:</p>
+    <div id="timer" class="text-2xl md:text-3xl font-bold mt-2"></div>
+    <p class="mt-4 font-semibold">Bônus exclusivos + acesso vitalício!</p>
+  </section>
+
+  <section id="comprar" class="text-center p-8">
+    <a href="#" class="bg-red-500 text-white font-bold py-4 px-8 rounded-full text-lg md:text-xl shadow-xl hover:bg-red-400 transition block mx-auto max-w-xs animate-bounce">Compre Agora e Comece Hoje</a>
+  </section>
+
+  <!-- Notificação de compra -->
+  <div id="purchase-notification" 
+       class="fixed bottom-10 left-0 bg-yellow-400 text-black px-5 py-3 rounded-r-lg shadow-lg opacity-0 -translate-x-full flex items-center space-x-4"
+       style="z-index: 9999;">
+    <div class="flex-grow font-semibold" id="buyer-name">Nome Acabou de comprar</div>
+    <div class="flex items-center space-x-2">
+      <span id="notif-timer" class="font-mono text-sm">4s</span>
+      <div id="progress-bar" class="h-1 bg-yellow-400 rounded" style="width: 100%; transition: width 1s linear;"></div>
+    </div>
+    <audio id="notif-sound" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg" preload="auto"></audio>
+  </div>
+
+  <script>
+    // Lista de compradores (nome + nome do meio)
+    const buyers = [
+      "Ana Beatriz", "Bruno Henrique", "Camila Alves", "Diego Fernando",
+      "Eliana Martins", "Fábio Augusto", "Gabriela Fernandes", "Henrique Cardoso",
+      "Isabela Miranda", "Júlio César", "Kátia Regina", "Leonardo Gomes",
+      "Mariana Cristina", "Nicolas Ferreira", "Olívia Castro", "Paulo Sérgio",
+      "Quésia Albuquerque", "Rafael Augusto", "Sabrina Lopes", "Thiago Moreira",
+      "Úrsula Figueiredo", "Vitor Hugo", "Wesley Ramos", "Xênia Fernandes",
+      "Yasmin Costa", "Zeca Henrique", "Adriana Monteiro", "Brenda Cardoso",
+      "Caio Henrique", "Daniela Ribeiro", "Eduardo Nascimento", "Fabiana Pereira",
+      "Gustavo Almeida", "Helena Dias", "Igor Barbosa", "Juliana Correia",
+      "Kleber Santos", "Lívia Moreira", "Marcelo Alves", "Nádia Costa",
+      "Otávio Pereira", "Patrícia Santos", "Rômulo Dias", "Sandra Fernandes",
+      "Tânia Alves", "Valter Gomes", "Wanda Pereira", "Xavier Mendes",
+      "Yuri Matos", "Zilda Rocha", "André Luiz"
+    ];
+
+    const notification = document.getElementById("purchase-notification");
+    const buyerName = document.getElementById("buyer-name");
+    const notifTimer = document.getElementById("notif-timer");
+    const progressBar = document.getElementById("progress-bar");
+    const sound = document.getElementById("notif-sound");
+
+    let currentIndex = 0;
+
+    function showNotification() {
+      const duration = 4; // duração da notificação em segundos
+      let countdown = duration;
+      buyerName.textContent = buyers[currentIndex] + " acabou de comprar"; // Nome + texto depois
+      notifTimer.textContent = countdown + "s";
+
+      // Mostrar notificação com animação
+      notification.classList.remove("opacity-0", "-translate-x-full");
+      notification.classList.add("opacity-100", "translate-x-0");
+      sound.play();
+
+      // Barra de progresso
+      progressBar.style.width = "100%";
+      let progress = 100;
+
+      const interval = setInterval(() => {
+        countdown--;
+        notifTimer.textContent = countdown + "s";
+        progress -= 100 / duration;
+        progressBar.style.width = progress + "%";
+
+        if (countdown <= 0) {
+          clearInterval(interval);
+          notification.classList.remove("opacity-100", "translate-x-0");
+          notification.classList.add("opacity-0", "-translate-x-full");
+          currentIndex = (currentIndex + 1) % buyers.length;
+        }
+      }, 1000);
+    }
+
+    setTimeout(() => {
+      showNotification();
+      setInterval(showNotification, 6000);
+    }, 2000);
+
+    // Temporizador regressivo de 20 minutos para oferta relâmpago
+    function startCountdown(duration, display) {
+      let timer = duration, minutes, seconds;
+      const interval = setInterval(() => {
+        minutes = Math.floor(timer / 60);
+        seconds = timer % 60;
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = `${minutes}:${seconds}`;
+
+        if (--timer < 0) {
+          clearInterval(interval);
+          display.textContent = "Tempo esgotado!";
+        }
+      }, 1000);
+    }
+
+    window.onload = () => {
+      const timerDisplay = document.getElementById("timer");
+      const twentyMinutes = 60 * 20; // 20 minutos em segundos
+      startCountdown(twentyMinutes, timerDisplay);
+    };
+  </script>
+
+</body>
+</html>
